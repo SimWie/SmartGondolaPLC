@@ -1,7 +1,7 @@
 {
-  "deviceBoard": "",
+  "deviceBoard": "Raspberry Pi",
   "communicationPort": "",
-  "runtimeIpAddress": "",
+  "runtimeIpAddress": "SmartGondola.local",
   "compileOnly": false,
   "communicationConfiguration": {
     "modbusRTU": {
@@ -11,10 +11,8 @@
       "rtuRS485ENPin": null
     },
     "modbusTCP": {
-      "tcpInterface": "Wi-Fi",
-      "tcpMacAddress": null,
-      "tcpWifiSSID": null,
-      "tcpWifiPassword": null,
+      "tcpInterface": "Ethernet",
+      "tcpMacAddress": "DE:AD:BE:EF:DE:AD",
       "tcpStaticHostConfiguration": {
         "ipAddress": "",
         "dns": "",
@@ -25,7 +23,7 @@
     "communicationPreferences": {
       "enabledRTU": false,
       "enabledTCP": false,
-      "enabledDHCP": false
+      "enabledDHCP": true
     }
   }
 }
